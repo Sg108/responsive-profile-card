@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+
+}
+
+.container{
+    position:relative;
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+   background-color:hsl(185, 75%, 39%)
+  
+}
+.main{
+    position:relative;
+    z-index:100;
+    width:350px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0px 0px 10rem rgba(31, 30, 30, 0.37);
+    border:0.1px solid transparent;
+    border-radius:20px;
+    overflow: hidden;
+    letter-spacing:0.1rem
+}
+#img1{
+    position:absolute;
+    top:-600px;
+    left:-230px;
+   
+}
+#img2{
+    position:absolute;
+    right:-230px;
+    bottom:-600px;
+   
+} 
+.img4{
+    margin-top:-40px;
+    border:5px solid white;
+    border-radius:50%
+}
+.name_age{
+    margin:20px;
+}
+.name{
+    font-size:18px;
+}
+.name span{
+    color:#777;
+    font-weight: 10;
+}
+.city{
+    padding-left:45px;
+    padding-top:10px;
+    font-size:15px;
+    color:#777;
+    font-weight: 10;
+}
+.desc{
+    font-family: 'Kumbh Sans',sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: white;
+}
+hr{
+    width:350px;
+   
+}
+
+.footer{
+    width:350px;
+    height:90px;
+    font-size:18px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    font-weight:0
+}
+.follow{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.likes{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.photos{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.photos h6{
+    color:#777;
+    font-weight: 10;
+}
+.follow h6{
+    color:#777;
+    font-weight: 10;
+}
+.likes h6{
+    color:#777;
+    font-weight: 10;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #img1{
+        left:-700px;
+        top:-650px;
+    }
+    #img2{
+      
+        right:-700px;
+        bottom:-650px;
+    }
+    .main{
+        width:320px;
+    }
+    
+  }
+
